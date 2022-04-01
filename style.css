@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap');
 
 body {
-  background: linear-gradient(236.85deg, #e7e7e7 27.26%, #8c8c8c 96.03%);
+  background-image: url("https://i.pinimg.com/564x/8a/fd/6f/8afd6ffd442b5e3f3559369f6295f1e2.jpg");
   font-family: 'Poppins', sans-serif;
   background-size: auto;
 }
 
 .container {
   background-size: auto;
-  background: #f2f2ee;
+  background: #dadadb;
+  opacity: 0.9;
   color: black;
   margin: 150px;
   box-shadow: 6px 6px 6px #0e1d2f;
@@ -51,11 +52,15 @@ body {
   font-weight: 400;
   font-size: 16px;
   padding: 8px 16px;
-  background: #DDDDDD;
+  background: #e8aa14;
   border-radius: 100px;
   font-family: 'Poppins', sans-serif;
   border: none;
 }
+.projetos {
+  margin: auto;
+}
+
 
 .projetos-titulo {
   list-style: none;
@@ -85,23 +90,9 @@ body {
   text-decoration: none;
 }
 
-.vida dt {
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.hobbies-item {
-  list-style-type: none;
-  font-size: 18px;
-  line-height: 28px;
-}
-
-a {
-  text-decoration: none;
-}
 
 .dark .container {
-  background: black;
+  background: #010101;
   color: #f2f2ee;
 }
 
