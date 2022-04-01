@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap');
 
 body {
-  background: linear-gradient(236.85deg, #e7e7e7 27.26%, #dadadb 96.03%);
+  background: linear-gradient(236.85deg, #e7e7e7 27.26%, #8c8c8c 96.03%);
   font-family: 'Poppins', sans-serif;
+  background-size: auto;
 }
 
 .container {
+  background-size: auto;
   background: #f2f2ee;
   color: black;
   margin: 150px;
@@ -41,7 +43,7 @@ body {
 
 .titulo h3 {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .tema button {
@@ -55,20 +57,19 @@ body {
   border: none;
 }
 
-.projetos {
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(230.65deg, #BBBBBB 27.49%, #AAAAAA 83.19%);
-  margin-top: 32px;
-  padding: 32px;
-  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
-  border-radius: 20px;
-}
-
 .projetos-titulo {
   list-style: none;
   font-weight: 700;
   font-size: 24px;
+  color: black;
+}
+
+.projetos h3 {
+  font-weight: 400;
+  font-size: 18px;  
+  list-style: none;
+  color: black;
+  text-align: center;
 }
 
 .projetos-item {
@@ -99,18 +100,23 @@ a {
   text-decoration: none;
 }
 
-
-
 .dark .container {
-  background: #393a3f;
+  background: black;
   color: #f2f2ee;
 }
 
 .dark .projetos {
-  color: black;
+  color: #f2f2ee;
 }
 
 .dark .tema. button {
   background-color: #1c1c1c;
   border: 2px solid #f7f7f7;
+}
+
+.dark .projetos h3 {
+  font-weight: 400;
+  font-size: 18px;  
+  list-style: none;
+  color: #f2f2ee;
 }
